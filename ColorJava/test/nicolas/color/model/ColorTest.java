@@ -125,7 +125,7 @@ public class ColorTest {
     @Test
     public void testPlusieursColorErreur2() {
     	
-    	new Color(255,255,1500) ;
+    	new Color(255,255,-1500) ;
     }
 
     @Test
